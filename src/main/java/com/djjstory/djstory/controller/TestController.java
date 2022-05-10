@@ -3,6 +3,7 @@ package com.djjstory.djstory.controller;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -43,6 +44,15 @@ public class TestController {
 		list.add("Hellow World! testResponseBody");
 		ResponseDTO<String> responseDTO = ResponseDTO.<String>builder().data(list).build();
 		return responseDTO;
+	}
+	
+	@GetMapping("/testResponseEntity")
+	public ResponseEntity<?> testControllerResponseEntity(){
+		List<String> list = new ArrayList<>();
+		list.add("Hello world! I'am a ResponseEntity.And you got 400!");
+		ResponseDTO<String> response = ResponseDTO.<String>builder().data(list).build();
+		//return ResponseEntity.badRequest().body(response);
+		return ResponseEntity.ok().body(response);
 	}
 	
 }
