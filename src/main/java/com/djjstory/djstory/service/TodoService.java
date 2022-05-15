@@ -1,6 +1,7 @@
 package com.djjstory.djstory.service;
 
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -45,6 +46,27 @@ public class TodoService {
 	
 	public List<TodoEntity> retrieve(final String userId){
 		return todoRepository.findByUserId(userId);
+	}
+	
+	public List<TodoEntity> update(final TodoEntity entity){
+		validate(entity);		
+		Optional<TodoEntity> original = todoRepository.findById(entity.getId());
+
+		original.ifPresent(todo -> {
+			todo.setTitle(entity.getTitle());
+			todo.setDone(entity.isDone());
+			
+			todoRepository.save(todo);
+		});
+		
+		return retrieve(entity.getUserId());
+	}
+	
+	public void delete(final TodoEntity entity) {
+		validate(entity);
+		todoRepository.delete(entity);
+		return;
+		
 	}
 	
 	
