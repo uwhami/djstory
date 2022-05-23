@@ -5,6 +5,7 @@ class AddTodo extends React.Component {
   constructor(props) {
     super(props);
     this.state = { item: { title: "" } };
+    this.add = props.add;
   }
 
   onInputChange = (e) => {
@@ -13,7 +14,10 @@ class AddTodo extends React.Component {
     this.setState({ item: thisItem });
   };
 
-  onClickEvent = (e) => {};
+  onButtonClick = () => {
+    this.add(this.state.item);
+    this.setState({ item: { title: "" } });
+  };
 
   render() {
     return (
@@ -32,7 +36,7 @@ class AddTodo extends React.Component {
               fullWidth
               color="secondary"
               variant="outlined"
-              onClick={this.onClickEvent}
+              onClick={this.onButtonClick}
             >
               +
             </Button>

@@ -15,7 +15,15 @@ class App extends React.Component {
     };
   }
 
-  render() {
+  add = (item) => {
+    const thisItem = this.state.items;
+    item.id = "ID-" + thisItem.length;
+    item.done = false;
+    thisItem.push(item);
+    this.setState({ item: thisItem });
+  };
+
+  render() {cd
     var todoItems = this.state.items.length > 0 && (
       <Paper style={{ margin: 16 }}>
         <List>
@@ -33,7 +41,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Container maxWidth="md">
-          <AddTodo />
+          <AddTodo add={this.add} />
           <div className="TodoList">{todoItems}</div>
         </Container>
       </div>
