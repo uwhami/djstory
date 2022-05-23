@@ -23,7 +23,7 @@ class App extends React.Component {
     this.setState({ item: thisItem });
   };
 
-  render() {cd
+  render() {
     var todoItems = this.state.items.length > 0 && (
       <Paper style={{ margin: 16 }}>
         <List>
