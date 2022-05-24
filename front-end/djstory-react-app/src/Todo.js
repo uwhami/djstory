@@ -5,6 +5,7 @@ import {
   InputBase,
   Checkbox,
   ListItemSecondaryAction,
+  IconButton,
 } from "@material-ui/core";
 import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 
@@ -28,12 +29,15 @@ class Todo extends React.Component {
       //   <label id={this.state.item.id}>{this.state.item.title}</label>
       // </div>
 
+      //* disableRipple이 없으면 클릭할때 물결처럼 퍼짐 */
+      //{/* aria-label은 alt 같은 거. 눈에는 안보이지만 브라우저에 전달되면 좋은 정보 */}
+
       <ListItem>
         <Checkbox checked={item.done} disableRipple />
-        {/* disableRipple이 없으면 클릭할때 물결처럼 퍼짐 */}
+
         <ListItemText>
           <InputBase
-            ㅎ={{ "aria-label": "naked" }}
+            inputProps={{ "aria-label": "naked" }}
             type="text"
             id={item.id}
             name={item.id}
@@ -43,10 +47,9 @@ class Todo extends React.Component {
           />
         </ListItemText>
         <ListItemSecondaryAction>
-          {/* aria-label은 alt 같은 거. 눈에는 안보이지만 브라우저에 전달되면 좋은 정보 */}
-          <iconButton aria-label="Delete Todo">
+          <IconButton aria-label="Delete Todo">
             <DeleteForeverIcon />
-          </iconButton>
+          </IconButton>
         </ListItemSecondaryAction>
       </ListItem>
     );
