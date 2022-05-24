@@ -30,7 +30,6 @@ class App extends React.Component {
           {this.state.items.map((item, idx) => (
             <Todo item={item} key={item.id} />
           ))}
-          ;
         </List>
       </Paper>
     );

@@ -28,6 +28,10 @@ class AddTodo extends React.Component {
   render() {
     return (
       <Paper style={{ margin: 16, padding: 16 }}>
+        {/* grid는 일반적으로 column갯수가 12개이며 xs는 차지하는 컬럼 수를 말한다. 아래는 11:1의 비율로 그리드가 한줄 차지하는 상태이다.
+        grid가 두줄 이상일 때 xs는 합은 한줄을 의미하고 한 줄안에서 컬럼은 md로 나눠진다
+        https://mui.com/material-ui/react-grid/ */}
+        
         <Grid container>
           <Grid xs={11} item style={{ paddingRight: 16 }}>
             <TextField
