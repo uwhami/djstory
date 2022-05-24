@@ -1,5 +1,6 @@
 import React from "react";
 import { ListItem, ListItemText, InputBase, Checkbox } from "@material-ui/core";
+import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 
 class Todo extends React.Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class Todo extends React.Component {
             fullWidth={true}
           />
         </ListItemText>
+        <DeleteForeverIcon />
       </ListItem>
     );
   }

@@ -17,7 +17,7 @@ class App extends React.Component {
 
   add = (item) => {
     const thisItem = this.state.items;
-    item.id = "ID-" + thisItem.length;
+    item.id = String(thisItem.length + 1);
     item.done = false;
     thisItem.push(item);
     this.setState({ item: thisItem });
@@ -25,11 +25,12 @@ class App extends React.Component {
 
   render() {
     var todoItems = this.state.items.length > 0 && (
-      <Paper style={{ margin: 16 }}>
+      <Paper>
         <List>
           {this.state.items.map((item, idx) => (
             <Todo item={item} key={item.id} />
           ))}
+          ;
         </List>
       </Paper>
     );
@@ -42,7 +43,7 @@ class App extends React.Component {
       <div className="App">
         <Container maxWidth="md">
           <AddTodo add={this.add} />
-          <div className="TodoList">{todoItems}</div>
+          {todoItems}
         </Container>
       </div>
     );
