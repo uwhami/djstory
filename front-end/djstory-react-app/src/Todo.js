@@ -24,7 +24,7 @@ class Todo extends React.Component {
 
   offReadOnly = () => {
     this.setState({ readOnly: false }, () => {
-      console.log(this.state.readOnly);
+      console.log("readOnly : " + this.state.readOnly);
     });
   };
 
@@ -32,6 +32,12 @@ class Todo extends React.Component {
     let thisItem = this.state.item;
     thisItem.title = e.target.value;
     this.setState({ item: thisItem });
+  };
+
+  enterKeyEvent = (e) => {
+    if (e.key === "Enter") {
+      this.setState({ readOnly: true });
+    }
   };
 
   deleteTodo = () => {
@@ -59,7 +65,8 @@ class Todo extends React.Component {
               readOnly: this.state.readOnly,
             }}
             onClick={this.offReadOnly}
-            onKeyPress={this.onChangeTodo}
+            onChange={this.onChangeTodo}
+            onKeyDown={this.enterKeyEvent}
             type="text"
             id={item.id}
             name={item.id}
