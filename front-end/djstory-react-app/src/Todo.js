@@ -12,32 +12,54 @@ import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 class Todo extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { item: props.item };
+    this.state = { item: props.item, readOnly: true };
+    this.delete = props.delete;
   }
+
+  checkboxEvent = () => {
+    let thisItem = this.state.item;
+    thisItem.done = !thisItem.done;
+    this.setState({ item: thisItem });
+  };
+
+  offReadOnly = () => {
+    this.setState({ readOnly: false }, () => {
+      console.log(this.state.readOnly);
+    });
+  };
+
+  onChangeTodo = (e) => {
+    let thisItem = this.state.item;
+    thisItem.title = e.target.value;
+    this.setState({ item: thisItem });
+  };
+
+  deleteTodo = () => {
+    this.delete(this.state.item);
+  };
 
   render() {
     const item = this.state.item;
 
     return (
-      // <div className="Todo">
-      //   <input
-      //     type="checkbox"
-      //     id={this.state.item.id}
-      //     name={this.state.item.id}
-      //     checked={this.state.item.done}
-      //   />
-      //   <label id={this.state.item.id}>{this.state.item.title}</label>
-      // </div>
-
       //* disableRipple이 없으면 클릭할때 물결처럼 퍼짐 */
       //{/* aria-label은 alt 같은 거. 눈에는 안보이지만 브라우저에 전달되면 좋은 정보 */}
 
       <ListItem>
-        <Checkbox checked={item.done} disableRipple />
+        <Checkbox
+          checked={item.done}
+          onClick={this.checkboxEvent}
+          disableRipple
+        />
 
         <ListItemText>
           <InputBase
-            inputProps={{ "aria-label": "naked" }}
+            inputProps={{
+              "aria-label": "naked",
+              readOnly: this.state.readOnly,
+            }}
+            onClick={this.offReadOnly}
+            onKeyPress={this.onChangeTodo}
             type="text"
             id={item.id}
             name={item.id}
@@ -47,7 +69,7 @@ class Todo extends React.Component {
           />
         </ListItemText>
         <ListItemSecondaryAction>
-          <IconButton aria-label="Delete Todo">
+          <IconButton aria-label="Delete Todo" onClick={this.deleteTodo}>
             <DeleteForeverIcon />
           </IconButton>
         </ListItemSecondaryAction>
