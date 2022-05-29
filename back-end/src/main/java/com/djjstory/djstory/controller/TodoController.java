@@ -38,7 +38,6 @@ public class TodoController {
 	
 	@PostMapping
 	public ResponseEntity<?> createTodo(@RequestBody TodoDTO dto) throws Exception{
-		
 		String temporaryUserId = "temporary-user";
 		TodoEntity todoEntity = TodoDTO.todoEntity(dto);
 		todoEntity.setId(null);

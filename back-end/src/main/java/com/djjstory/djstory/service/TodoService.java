@@ -40,7 +40,7 @@ public class TodoService {
 		//Validations
 		validate(entity);		
 		todoRepository.save(entity);
-		log.info("Entity id : {} is saved.", entity.getId());
+		log.info("Entity id : {} is saved.", entity.getTitle());
 		return todoRepository.findByUserId(entity.getUserId());
 	}
 	

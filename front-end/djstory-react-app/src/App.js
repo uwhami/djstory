@@ -3,6 +3,7 @@ import "./App.css";
 import Todo from "./Todo";
 import { Paper, List, Container } from "@material-ui/core";
 import AddTodo from "./AddTodo";
+import { call } from "./service/ApiService";
 
 class App extends React.Component {
   constructor(props) {
@@ -13,11 +14,14 @@ class App extends React.Component {
   }
 
   add = (item) => {
-    const thisItem = this.state.items;
-    item.id = String(thisItem.length + 1);
-    item.done = false;
-    thisItem.push(item);
-    this.setState({ item: thisItem });
+    // const thisItem = this.state.items;
+    // item.id = String(thisItem.length + 1);
+    // item.done = false;
+    // thisItem.push(item);
+    // this.setState({ item: thisItem });
+    call("/todo", "POST", item).then((response) =>
+      this.setState({ items: response.data })
+    );
   };
 
   delete = (item) => {
@@ -29,21 +33,9 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    const requestOptions = {
-      method: "GET",
-      headers: { "Content-Type": "application/json" },
-    };
-
-    fetch("http://localhost:8080/todo", requestOptions)
-      .then((response) => response.json())
-      .then(
-        (response) => {
-          this.setState({ items: response.data });
-        },
-        (error) => {
-          this.setState({ error });
-        }
-      );
+    call("/todo", "GET", null).then((response) =>
+      this.setState({ items: response.data })
+    );
   }
 
   render() {
