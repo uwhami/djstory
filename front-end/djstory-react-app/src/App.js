@@ -25,11 +25,16 @@ class App extends React.Component {
   };
 
   delete = (item) => {
-    const thisItem = this.state.items;
-    const newItems = thisItem.filter((e) => e.id !== item.id);
-    this.setState({ items: newItems }, () => {
-      console.log("Update items : " + this.state.items);
-    });
+    // const thisItem = this.state.items;
+    // const newItems = thisItem.filter((e) => e.id !== item.id);
+    // this.setState({ items: newItems }, () => {
+    //   console.log("Update items : " + this.state.items);
+    // });
+    call("/todo", "DELETE", item).then((window.location.href = "/"));
+  };
+
+  update = (item) => {
+    call("/todo", "PUT", item).then((window.location.href = "/"));
   };
 
   componentDidMount() {
@@ -43,7 +48,12 @@ class App extends React.Component {
       <Paper style={{ margin: 16 }}>
         <List>
           {this.state.items.map((item, idx) => (
-            <Todo item={item} key={item.id} delete={this.delete} />
+            <Todo
+              item={item}
+              key={item.id}
+              delete={this.delete}
+              update={this.update}
+            />
           ))}
         </List>
       </Paper>

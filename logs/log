@@ -32,3 +32,174 @@
 [2m2022-05-29 16:54:50.244[0;39m [32m INFO[0;39m [35m3110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
 [2m2022-05-29 16:54:50.245[0;39m [32m INFO[0;39m [35m3110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
 [2m2022-05-29 16:54:50.393[0;39m [32m INFO[0;39m [35m3110[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : abcdefg is saved.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.5.13)[0;39m
+
+[2m2022-05-29 23:05:34.869[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Starting DjstoryApplication using Java 1.8.0_331 on DJui-MacBookPro.local with PID 3426 (/Users/uwhami/JavaWork/workspace/djstory/back-end/bin/main started by uwhami in /Users/uwhami/JavaWork/workspace/djstory/back-end)
+[2m2022-05-29 23:05:34.873[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-29 23:05:35.404[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2022-05-29 23:05:35.450[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+[2m2022-05-29 23:05:35.926[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2022-05-29 23:05:35.936[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-29 23:05:35.936[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-29 23:05:36.013[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-29 23:05:36.013[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1100 ms
+[2m2022-05-29 23:05:36.150[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-05-29 23:05:36.379[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-05-29 23:05:36.426[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2022-05-29 23:05:36.477[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.33
+[2m2022-05-29 23:05:36.619[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2022-05-29 23:05:36.754[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2m2022-05-29 23:05:36.933[0;39m [33m WARN[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.id.UUIDHexGenerator       [0;39m [2m:[0;39m HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2m2022-05-29 23:05:37.360[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2022-05-29 23:05:37.369[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-05-29 23:05:37.715[0;39m [33m WARN[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2022-05-29 23:05:38.020[0;39m [33m WARN[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+[2m2022-05-29 23:05:38.022[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-05-29 23:05:38.022[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36m.SchemaDropperImpl$DelayedDropActionImpl[0;39m [2m:[0;39m HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+[2m2022-05-29 23:05:38.026[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2022-05-29 23:05:38.027[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2022-05-29 23:05:38.028[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Stopping service [Tomcat]
+[2m2022-05-29 23:05:38.037[0;39m [32m INFO[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mConditionEvaluationReportLoggingListener[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2m2022-05-29 23:05:38.158[0;39m [31mERROR[0;39m [35m3426[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.5.13)[0;39m
+
+[2m2022-05-29 23:05:46.769[0;39m [32m INFO[0;39m [35m3429[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Starting DjstoryApplication using Java 1.8.0_331 on DJui-MacBookPro.local with PID 3429 (/Users/uwhami/JavaWork/workspace/djstory/back-end/bin/main started by uwhami in /Users/uwhami/JavaWork/workspace/djstory/back-end)
+[2m2022-05-29 23:05:46.772[0;39m [32m INFO[0;39m [35m3429[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-29 23:05:47.212[0;39m [32m INFO[0;39m [35m3429[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.5.13)[0;39m
+
+[2m2022-05-29 23:05:54.864[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Starting DjstoryApplication using Java 1.8.0_331 on DJui-MacBookPro.local with PID 3430 (/Users/uwhami/JavaWork/workspace/djstory/back-end/bin/main started by uwhami in /Users/uwhami/JavaWork/workspace/djstory/back-end)
+[2m2022-05-29 23:05:54.876[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-29 23:05:55.415[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2022-05-29 23:05:55.460[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interfaces.
+[2m2022-05-29 23:05:55.938[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2022-05-29 23:05:55.948[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-29 23:05:55.948[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-29 23:05:56.031[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-29 23:05:56.032[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1115 ms
+[2m2022-05-29 23:05:56.182[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-05-29 23:05:56.429[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-05-29 23:05:56.477[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2022-05-29 23:05:56.528[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.33
+[2m2022-05-29 23:05:56.667[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2022-05-29 23:05:56.807[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2m2022-05-29 23:05:56.982[0;39m [33m WARN[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.id.UUIDHexGenerator       [0;39m [2m:[0;39m HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2m2022-05-29 23:05:57.401[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2022-05-29 23:05:57.410[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-05-29 23:05:57.755[0;39m [33m WARN[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2022-05-29 23:05:58.178[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2022-05-29 23:05:58.185[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Started DjstoryApplication in 3.709 seconds (JVM running for 4.428)
+[2m2022-05-29 23:06:08.001[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-29 23:06:08.001[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-29 23:06:08.002[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-05-29 23:06:08.167[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 1 is saved.
+[2m2022-05-29 23:07:54.280[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 2 is saved.
+[2m2022-05-29 23:08:54.063[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 2 is saved.
+[2m2022-05-29 23:11:24.734[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 2 is saved.
+[2m2022-05-29 23:16:19.136[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 2 is saved.
+[2m2022-05-29 23:17:56.840[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 2 is saved.
+[2m2022-05-29 23:17:58.826[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id :  is saved.
+[2m2022-05-29 23:18:00.151[0;39m [32m INFO[0;39m [35m3430[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id :  is saved.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.5.13)[0;39m
+
+[2m2022-05-29 23:28:55.691[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Starting DjstoryApplication using Java 1.8.0_331 on DJui-MacBookPro.local with PID 4108 (/Users/uwhami/JavaWork/workspace/djstory/back-end/bin/main started by uwhami in /Users/uwhami/JavaWork/workspace/djstory/back-end)
+[2m2022-05-29 23:28:55.699[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-29 23:28:56.350[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2022-05-29 23:28:56.419[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+[2m2022-05-29 23:28:57.034[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2022-05-29 23:28:57.046[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-29 23:28:57.046[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-29 23:28:57.142[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-29 23:28:57.142[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1394 ms
+[2m2022-05-29 23:28:57.331[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-05-29 23:28:57.630[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-05-29 23:28:57.698[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2022-05-29 23:28:57.779[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.33
+[2m2022-05-29 23:28:57.981[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2022-05-29 23:28:58.174[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2m2022-05-29 23:28:58.390[0;39m [33m WARN[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.id.UUIDHexGenerator       [0;39m [2m:[0;39m HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2m2022-05-29 23:28:58.948[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2022-05-29 23:28:58.958[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-05-29 23:28:59.385[0;39m [33m WARN[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2022-05-29 23:28:59.918[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2022-05-29 23:28:59.925[0;39m [32m INFO[0;39m [35m4108[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Started DjstoryApplication in 4.669 seconds (JVM running for 5.839)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.5.13)[0;39m
+
+[2m2022-05-29 23:29:19.207[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Starting DjstoryApplication using Java 1.8.0_331 on DJui-MacBookPro.local with PID 4109 (/Users/uwhami/JavaWork/workspace/djstory/back-end/bin/main started by uwhami in /Users/uwhami/JavaWork/workspace/djstory/back-end)
+[2m2022-05-29 23:29:19.211[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-05-29 23:29:19.686[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2022-05-29 23:29:19.727[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+[2m2022-05-29 23:29:20.160[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2022-05-29 23:29:20.168[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-05-29 23:29:20.168[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-05-29 23:29:20.236[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-05-29 23:29:20.236[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 988 ms
+[2m2022-05-29 23:29:20.364[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-05-29 23:29:20.581[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-05-29 23:29:20.622[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2022-05-29 23:29:20.668[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.33
+[2m2022-05-29 23:29:20.795[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2022-05-29 23:29:20.920[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2m2022-05-29 23:29:21.090[0;39m [33m WARN[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.id.UUIDHexGenerator       [0;39m [2m:[0;39m HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2m2022-05-29 23:29:21.473[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2022-05-29 23:29:21.480[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-05-29 23:29:21.794[0;39m [33m WARN[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2022-05-29 23:29:22.090[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2022-05-29 23:29:22.097[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Started DjstoryApplication in 3.229 seconds (JVM running for 3.971)
+[2m2022-05-29 23:29:51.402[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-05-29 23:29:51.403[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-05-29 23:29:51.403[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 0 ms
+[2m2022-05-29 23:29:55.262[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 1 is saved.
+[2m2022-05-29 23:29:56.437[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : abcde is saved.
+[2m2022-05-29 23:34:46.331[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : delete test is saved.
+[2m2022-05-29 23:42:20.791[0;39m [32m INFO[0;39m [35m4109[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.djjstory.djstory.service.TodoService  [0;39m [2m:[0;39m Entity id : add Todo 2 is saved.
