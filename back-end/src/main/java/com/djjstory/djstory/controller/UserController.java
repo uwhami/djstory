@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.djjstory.djstory.dto.ResponseDTO;
 import com.djjstory.djstory.dto.UserDTO;
+import com.djjstory.djstory.model.UserEntity;
 import com.djjstory.djstory.service.UserService;
 
 import lombok.extern.slf4j.Slf4j;
@@ -23,8 +24,36 @@ public class UserController {
 	
 	@PostMapping("/signup")
 	public ResponseEntity<?> registerUser(@RequestBody UserDTO userDTO){
+		try {
+			UserEntity user = UserEntity.builder().email(userDTO.getEmail())
+											      .username(userDTO.getUsername())
+											      .password(userDTO.getPassword())
+											      .build();
+			UserEntity registerUser = userService.create(user);
+			UserDTO responseDTO = UserDTO.builder().email(registerUser.getEmail())
+										           .id(registerUser.getId())
+										           .username(registerUser.getUsername())
+										           .build();
+			return ResponseEntity.ok().body(responseDTO);										           
+		} catch (Exception e) {
+			ResponseDTO responseDTO = ResponseDTO.builder().error(e.getMessage()).build();
+			return ResponseEntity.badRequest().body(responseDTO);
+		}
+	}
+	
+	@PostMapping("/signin")
+	public ResponseEntity<?> authenticate(@RequestBody UserDTO userDTO){
+		UserEntity user = userService.getByCredentials(userDTO.getEmail(), userDTO.getPassword());
 		
-		return null;
+		if(user != null) {
+			final UserDTO responseUserDTO = UserDTO.builder().email(user.getEmail())
+															 .id(user.getId())
+															 .build();
+			return ResponseEntity.ok(responseUserDTO);
+		}else {
+			ResponseDTO responseDTO = ResponseDTO.builder().error("Login failed").build();
+			return ResponseEntity.badRequest().body(responseDTO);
+		}
 	}
 	
 }
