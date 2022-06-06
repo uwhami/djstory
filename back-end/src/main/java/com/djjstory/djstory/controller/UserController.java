@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.djjstory.djstory.dto.ResponseDTO;
 import com.djjstory.djstory.dto.UserDTO;
 import com.djjstory.djstory.model.UserEntity;
+import com.djjstory.djstory.security.TokenProvider;
 import com.djjstory.djstory.service.UserService;
 
 import lombok.extern.slf4j.Slf4j;
@@ -21,6 +22,9 @@ public class UserController {
 
 	@Autowired
 	private UserService userService;
+	
+	@Autowired
+	private TokenProvider tokenProvider;
 	
 	@PostMapping("/signup")
 	public ResponseEntity<?> registerUser(@RequestBody UserDTO userDTO){
@@ -45,9 +49,13 @@ public class UserController {
 	public ResponseEntity<?> authenticate(@RequestBody UserDTO userDTO){
 		UserEntity user = userService.getByCredentials(userDTO.getEmail(), userDTO.getPassword());
 		
+		final String token = tokenProvider.create(user);
+		
 		if(user != null) {
 			final UserDTO responseUserDTO = UserDTO.builder().email(user.getEmail())
 															 .id(user.getId())
+															 .username(user.getUsername())
+															 .token(token)
 															 .build();
 			return ResponseEntity.ok(responseUserDTO);
 		}else {
