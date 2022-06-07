@@ -1,6 +1,7 @@
 package com.djjstory.djstory.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import com.djjstory.djstory.model.UserEntity;
@@ -29,8 +30,15 @@ public class UserService {
 			return userRepository.save(userEntity); 			
 		}
 		
-		public UserEntity getByCredentials(final String email, String password) {
-			return userRepository.findByEmailAndPassword(email, password);
+		public UserEntity getByCredentials(final String email, String password, final PasswordEncoder encoder) {
+			final UserEntity originalUser = userRepository.findByEmail(email);
+			
+			if(originalUser != null && encoder.matches(password, originalUser.getPassword())) {
+				return originalUser;
+			}
+			
+			return null;
+			//return userRepository.findByEmailAndPassword(email, password);
 		}
 		
 }

@@ -36,6 +36,11 @@ public class TokenProvider {
 								     .parseClaimsJws(token)
 								     .getBody();
 		
+		if(claims.getExpiration().before(new Date())) {
+			log.info("expired token");
+			return null;
+		}
+		
 		return claims.getSubject();
 	}
 	
