@@ -1,15 +1,44 @@
 import React from "react";
 import "./App.css";
 import Todo from "./Todo";
-import { Paper, List, Container, Grid, Button, AppBar, Toolbar, Typography } from "@material-ui/core";
+import {
+  Paper,
+  List,
+  Container,
+  Grid,
+  Button,
+  AppBar,
+  Toolbar,
+  Typography,
+} from "@material-ui/core";
 import AddTodo from "./AddTodo";
 import { call, signout } from "./service/ApiService";
+
+function NavigationBar() {
+  return (
+    <AppBar position="static">
+      <Toolbar>
+        <Grid justify="space-between" container>
+          <Grid item>
+            <Typography variant="h6">오늘의 할일</Typography>
+          </Grid>
+          <Grid>
+            <Button color="inherit" onClick={signout}>
+              로그아웃
+            </Button>
+          </Grid>
+        </Grid>
+      </Toolbar>
+    </AppBar>
+  );
+}
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
       items: [],
+      loagding: true,
     };
   }
 
@@ -39,7 +68,7 @@ class App extends React.Component {
 
   componentDidMount() {
     call("/todo", "GET", null).then((response) =>
-      this.setState({ items: response.data })
+      this.setState({ items: response.data, loading: false })
     );
   }
 
@@ -59,20 +88,29 @@ class App extends React.Component {
       </Paper>
     );
 
-    
-
     // var todoItems = this.state.items.map((item, idx) => (
     //   <Todo item={item} key={item.id} />
     // ));
 
-    return (
-      <div className="App">
+    var loadingPage = <h2>로딩중...</h2>;
+
+    var todoListPage = (
+      <div>
+        <NavigationBar />
         <Container maxWidth="md">
           <AddTodo add={this.add} />
           <div className="todoList">{todoItems}</div>
         </Container>
       </div>
     );
+
+    var content = loadingPage;
+
+    if (!this.state.loading) {
+      content = todoListPage;
+    }
+
+    return <div className="App">{content}</div>;
   }
 }
 

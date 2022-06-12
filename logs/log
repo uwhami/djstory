@@ -2383,3 +2383,467 @@ io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-06-10T00:21:11Z. Curren
 
 [2m2022-06-10 22:59:15.229[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m42s934ms).
 [2m2022-06-10 23:48:44.479[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m29s74ms).
+[2m2022-06-11 00:21:32.335[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=22m3s563ms).
+[2m2022-06-11 00:33:58.577[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m26s206ms).
+[2m2022-06-11 00:38:11.912[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s360ms).
+[2m2022-06-11 12:39:15.256[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h1m3s344ms).
+[2m2022-06-11 20:29:05.946[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h49m50s690ms).
+[2m2022-06-11 20:29:35.299[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s353ms), soft-evicting connections from pool.
+[2m2022-06-11 21:42:46.769[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=27m40s725ms).
+[2m2022-06-11 21:57:50.586[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m33s760ms).
+[2m2022-06-11 22:11:50.440[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s811ms), soft-evicting connections from pool.
+[2m2022-06-11 22:13:54.578[0;39m [33m WARN[0;39m [35m10193[0;39m [2m---[0;39m [2m[l-1 housekeeper][0;39m [36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m4s139ms).
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+[32m :: Spring Boot :: [39m             [2m (v2.5.13)[0;39m
+
+[2m2022-06-12 23:32:43.570[0;39m [33m WARN[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.boot.StartupInfoLogger              [0;39m [2m:[0;39m InetAddress.getLocalHost().getHostName() took 5002 milliseconds to respond. Please verify your network configuration (macOS machines may need to add entries to /etc/hosts).
+[2m2022-06-12 23:32:48.580[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Starting DjstoryApplication using Java 1.8.0_331 on DJui-MacBookPro.local with PID 25021 (/Users/uwhami/JavaWork/workspace/djstory/back-end/bin/main started by uwhami in /Users/uwhami/JavaWork/workspace/djstory/back-end)
+[2m2022-06-12 23:32:48.581[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2022-06-12 23:32:49.306[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2022-06-12 23:32:49.382[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 61 ms. Found 2 JPA repository interfaces.
+[2m2022-06-12 23:32:50.018[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port(s): 8080 (http)
+[2m2022-06-12 23:32:50.031[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2022-06-12 23:32:50.031[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.apache.catalina.core.StandardEngine [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/9.0.62]
+[2m2022-06-12 23:32:50.412[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2022-06-12 23:32:50.412[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 1775 ms
+[2m2022-06-12 23:32:50.611[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2022-06-12 23:32:50.914[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2022-06-12 23:32:50.986[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2022-06-12 23:32:51.088[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 5.4.33
+[2m2022-06-12 23:32:51.299[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.hibernate.annotations.common.Version  [0;39m [2m:[0;39m HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[2m2022-06-12 23:32:51.482[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.dialect.Dialect           [0;39m [2m:[0;39m HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+[2m2022-06-12 23:32:56.726[0;39m [33m WARN[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36morg.hibernate.id.UUIDHexGenerator       [0;39m [2m:[0;39m HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2m2022-06-12 23:32:57.297[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[2m2022-06-12 23:32:57.308[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2022-06-12 23:32:57.347[0;39m [33m WARN[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2022-06-12 23:32:57.850[0;39m [33m WARN[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 37bcf1d1-d1d7-49d3-b600-04f0f19a9a32
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2022-06-12 23:32:58.275[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.s.web.DefaultSecurityFilterChain    [0;39m [2m:[0;39m Will not secure any request
+[2m2022-06-12 23:32:58.508[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat started on port(s): 8080 (http) with context path ''
+[2m2022-06-12 23:32:58.515[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[           main][0;39m [36mcom.djjstory.djstory.DjstoryApplication [0;39m [2m:[0;39m Started DjstoryApplication in 30.436 seconds (JVM running for 37.375)
+[2m2022-06-12 23:33:39.034[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2m2022-06-12 23:33:39.034[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Initializing Servlet 'dispatcherServlet'
+[2m2022-06-12 23:33:39.035[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mo.s.web.servlet.DispatcherServlet       [0;39m [2m:[0;39m Completed initialization in 1 ms
+[2m2022-06-12 23:33:39.059[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:33:39.194[0;39m [31mERROR[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Could not set user authentication in security context
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-06-08T23:28:53Z. Current time: 2022-06-12T23:33:39Z, a difference of 345886188 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.djjstory.djstory.security.TokenProvider.validateAndGetUserId(TokenProvider.java:36) ~[main/:na]
+	at com.djjstory.djstory.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:38) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_331]
+
+[2m2022-06-12 23:33:48.113[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:33:48.115[0;39m [31mERROR[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Could not set user authentication in security context
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-06-08T23:28:53Z. Current time: 2022-06-12T23:33:48Z, a difference of 345895115 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.djjstory.djstory.security.TokenProvider.validateAndGetUserId(TokenProvider.java:36) ~[main/:na]
+	at com.djjstory.djstory.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:38) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_331]
+
+[2m2022-06-12 23:33:59.650[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:33:59.651[0;39m [31mERROR[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Could not set user authentication in security context
+
+io.jsonwebtoken.ExpiredJwtException: JWT expired at 2022-06-10T00:21:11Z. Current time: 2022-06-12T23:33:59Z, a difference of 256368651 milliseconds.  Allowed clock skew: 0 milliseconds.
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:385) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parse(DefaultJwtParser.java:481) ~[jjwt-0.9.1.jar:0.9.1]
+	at io.jsonwebtoken.impl.DefaultJwtParser.parseClaimsJws(DefaultJwtParser.java:541) ~[jjwt-0.9.1.jar:0.9.1]
+	at com.djjstory.djstory.security.TokenProvider.validateAndGetUserId(TokenProvider.java:36) ~[main/:na]
+	at com.djjstory.djstory.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:38) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) [spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_331]
+
+[2m2022-06-12 23:33:59.854[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:33:59.855[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:33:59.873[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:33:59.874[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:34:02.785[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:34:02.786[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:34:02.790[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:34:02.791[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:34:03.967[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:34:03.968[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:34:03.972[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:34:03.972[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:37:11.727[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:37:11.729[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:37:11.733[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:37:11.734[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:37:16.717[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:37:16.718[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:37:16.721[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:37:16.722[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:38:18.697[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:38:18.698[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:38:18.703[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:38:18.704[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:09.698[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:09.699[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:09.703[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:09.704[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:20.850[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:20.851[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:20.854[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:20.855[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:30.724[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:30.725[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:30.728[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:30.729[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:36.697[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:36.698[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:39:36.701[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:39:36.702[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:07.696[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:07.697[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:07.701[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:07.702[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:12.724[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:12.724[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:12.727[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:12.728[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:39.695[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:39.696[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:39.700[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:39.701[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:40.922[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:40.923[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:40:40.926[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:40:40.927[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:33.773[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:33.773[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:33.776[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:33.777[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:50.718[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:50.718[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:50.722[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:50.723[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:51.748[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:51.749[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:51.752[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:51.752[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:56.721[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:56.722[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:41:56.727[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:41:56.728[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:42:35.839[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:42:35.840[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:42:35.843[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:42:35.844[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:42:37.843[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:42:37.844[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:42:37.847[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:42:37.848[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:22.694[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:22.695[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:22.699[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:22.699[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:30.727[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:30.728[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:30.731[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:30.731[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:42.688[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:42.688[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:42.691[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:42.692[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:46.720[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:46.721[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:46.726[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:46.727[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:47.984[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:47.985[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:43:47.989[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:43:47.989[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:44:15.738[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:44:15.738[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:44:15.742[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:44:15.743[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:44:24.150[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:44:24.152[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:44:24.158[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:44:24.159[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:44:25.118[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:44:25.119[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:44:25.122[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:44:25.122[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:45:07.489[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:07.508[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:20.001[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:20.106[0;39m [31mERROR[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mo.a.c.c.C.[.[.[/].[dispatcherServlet]   [0;39m [2m:[0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.djjstory.djstory.security.TokenProvider.create(TokenProvider.java:27) ~[main/:na]
+	at com.djjstory.djstory.controller.UserController.authenticate(UserController.java:56) ~[main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_331]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_331]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_331]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_331]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.19.jar:5.3.19]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.62.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:111) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:121) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:115) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at com.djjstory.djstory.security.JwtAuthenticationFilter.doFilterInternal(JwtAuthenticationFilter.java:55) ~[main/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.5.6.jar:5.5.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.19.jar:5.3.19]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.62.jar:9.0.62]
+	at java.lang.Thread.run(Thread.java:750) [na:1.8.0_331]
+
+[2m2022-06-12 23:45:23.408[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:23.638[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:23.639[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:45:23.643[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:23.644[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:45:36.690[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:36.694[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:41.425[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-6][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:41.613[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:41.613[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-7][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:45:41.617[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:45:41.617[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-8][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:46:03.708[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-9][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:46:03.712[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-1][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:46:12.504[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[io-8080-exec-10][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:46:12.713[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:46:12.713[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-2][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:46:12.717[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:46:12.717[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-3][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Authenticated user Id : 402879f38158550801815855afef0000
+[2m2022-06-12 23:46:14.206[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-4][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
+[2m2022-06-12 23:46:14.211[0;39m [32m INFO[0;39m [35m25021[0;39m [2m---[0;39m [2m[nio-8080-exec-5][0;39m [36mc.d.d.security.JwtAuthenticationFilter  [0;39m [2m:[0;39m Filter is running..
