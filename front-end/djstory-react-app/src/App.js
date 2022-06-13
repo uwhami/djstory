@@ -13,12 +13,13 @@ import {
 } from "@material-ui/core";
 import AddTodo from "./AddTodo";
 import { call, signout } from "./service/ApiService";
+import BasicTabs from "./BasicTabs";
 
 function NavigationBar() {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Grid justify="space-between" container>
+        <Grid justifyContent="space-between" container>
           <Grid item>
             <Typography variant="h6">오늘의 할일</Typography>
           </Grid>
@@ -97,6 +98,7 @@ class App extends React.Component {
     var todoListPage = (
       <div>
         <NavigationBar />
+        <BasicTabs />
         <Container maxWidth="md">
           <AddTodo add={this.add} />
           <div className="todoList">{todoItems}</div>
