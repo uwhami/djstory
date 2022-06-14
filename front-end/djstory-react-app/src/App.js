@@ -39,7 +39,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       items: [],
-      loagding: true,
+      loading: true,
     };
   }
 
@@ -69,7 +69,10 @@ class App extends React.Component {
 
   componentDidMount() {
     call("/todo", "GET", null).then((response) =>
-      this.setState({ items: response.data, loading: false })
+      this.setState({
+        items: response.data,
+        loading: false,
+      })
     );
   }
 
@@ -108,7 +111,7 @@ class App extends React.Component {
 
     var content = loadingPage;
 
-    if (!this.state.loading) {
+    if (this.state.loading) {
       content = todoListPage;
     }
 

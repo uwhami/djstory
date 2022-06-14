@@ -4,7 +4,7 @@ const ACCESS_TOKEN = "ACCESS_TOKEN";
 export function call(api, method, request) {
   let headers = new Headers({ "Content-Type": "application/json" });
 
-  const accessToken = localStorage.getItem(ACCESS_TOKEN);
+  const accessToken = sessionStorage.getItem(ACCESS_TOKEN);
 
   if (accessToken && accessToken !== null) {
     headers.append("Authorization", "Bearer " + accessToken);
