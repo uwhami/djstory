@@ -111,7 +111,7 @@ class App extends React.Component {
 
     var content = loadingPage;
 
-    if (this.state.loading) {
+    if (!this.state.loading) {
       content = todoListPage;
     }
 
