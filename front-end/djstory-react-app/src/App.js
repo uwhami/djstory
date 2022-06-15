@@ -101,7 +101,7 @@ class App extends React.Component {
     var todoListPage = (
       <div>
         <NavigationBar />
-        <BasicTabs />
+        {/* <BasicTabs /> */}
         <Container maxWidth="md">
           <AddTodo add={this.add} />
           <div className="todoList">{todoItems}</div>
